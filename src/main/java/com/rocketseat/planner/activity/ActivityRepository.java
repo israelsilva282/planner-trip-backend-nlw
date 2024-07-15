@@ -1,8 +1,7 @@
-package com.rocketseat.planner.activities;
+package com.rocketseat.planner.activity;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import javax.accessibility.AccessibleIcon;
 import java.util.List;
 import java.util.UUID;
 

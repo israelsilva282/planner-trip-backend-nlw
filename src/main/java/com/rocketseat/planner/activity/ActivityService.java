@@ -1,10 +1,9 @@
-package com.rocketseat.planner.activities;
+package com.rocketseat.planner.activity;
 
 import com.rocketseat.planner.trip.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.accessibility.AccessibleIcon;
 import java.util.List;
 import java.util.UUID;
 
