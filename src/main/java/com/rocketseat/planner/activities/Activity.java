@@ -30,7 +30,7 @@ public class Activity {
     private String title;
 
     @ManyToOne
-    @JoinColumn(name = "trips")
+    @JoinColumn(name = "trip_id", nullable = false)
     private Trip trip;
 
     public Activity(String title, String occursAt, Trip trip){
